@@ -1,0 +1,28 @@
+{
+  "name": "mongode-gitpod",
+  "version": "1.0.0",
+  "description": "Este es un primer archivo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/germanh/node-mongode-gitpod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/germanh/node-mongode-gitpod/issues"
+  },
+  "homepage": "https://github.com/germanh/node-mongode-gitpod#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
